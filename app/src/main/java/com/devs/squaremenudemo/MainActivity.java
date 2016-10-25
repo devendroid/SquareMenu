@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements OnMenuClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         SquareMenu mSquareMenu = (SquareMenu) findViewById(R.id.sm);
         //mSquareMenu.setOnMenuClickListener(this);
 
