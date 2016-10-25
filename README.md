@@ -2,7 +2,7 @@
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
 [![GitHub license](https://img.shields.io/github/license/dcendents/android-maven-gradle-plugin.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-SquareMenu is a custom Floating Action Button with a different shape from traditional FABs with three sub menu buttons.
+SquareMenu is a custom Floating Action Button with a different shape from traditional FABs and with three sub menu buttons.
 ##Demo
 ![SquareMenu Demo](/assets/square_menu_v1.0.0.gif)
 

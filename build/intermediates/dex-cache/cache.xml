@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_5d2bec55ace78d6c5c99208e6e4e8bb7b33f1d3e/classes.dex" />
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_f0c2b488f4bcc43c9c42bb2c4e8d652f04fae904/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="47a1f68ba4258a4055fe56c81fae129ce5284b6f">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_74858f896edfa74e0dfffce1dca82a318fb2b81a/classes.dex" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_4a7a58bc4faf7413d5037f5aa3040e9525028741/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -26,7 +26,43 @@
         optimize="true"
         revision="23.0.3"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_1ee049525797a42195237ec0cbdbfb90882c8e55/classes.dex" />
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_1ee049525797a42195237ec0cbdbfb90882c8e55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e24a0f1e941808dde7b0492ec3cef00be75814ca">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_16a1b203cda8dce6d908e4158e8d3ae0756f7f83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_d0058dd51c0128bc8c298803a4ccfa6ce9a59821/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_2b4c655f7b467f38b08c08426467d450b0cb6288/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_6297e3c5acb9f1659b3d2b274c3743a645f9c8fd/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -35,52 +71,16 @@
         optimize="true"
         revision="23.0.3"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_577ed7005e8cf812ecdb2aca0ed40c74b82ddbc0/classes.dex" />
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_577ed7005e8cf812ecdb2aca0ed40c74b82ddbc0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_63b377b25dec5818cc0d23939a7528528975ebe7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="80faae5adaa80afaaaa0eb82e3f825eff9d0eddc">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b8a3e0c4ef758fa9697504bdea16143ac0caa31e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_270f83541d85024878ab26772d9951cdc6069fa3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_9db1436cd24135c9e4a1b8318888f1e97e62d12d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenuDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_7d53cb2ab0e0a34da0e2c45333f2cb0c01f9e609/classes.dex" />
+        sha1="cd46a7bbdfdb208689bdba0d4eb4fe1009124227">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b6618985a1ddedce4ca620cf867c54b76b221c01/classes.dex" />
     </item>
 
 </items>
