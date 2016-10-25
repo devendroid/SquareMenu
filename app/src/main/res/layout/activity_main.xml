@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.devs.squaremenu.SquareMenu
+        app:fabSize="80"
+        app:fabColor="@color/colorAccent"
+        app:menuOpenDirection="top_left"
+        app:iconM1="@drawable/ic_delete_forever_white_24dp"
+        app:iconM2="@drawable/ic_call_white_24dp"
+        app:iconM3="@drawable/ic_chat_white_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.devs.squaremenu.SquareMenu
+        app:fabSize="80"
+        app:fabColor="@color/colorPrimaryDark"
+        android:id="@+id/sm"
+        app:iconM1="@drawable/ic_delete_forever_white_24dp"
+        app:iconM2="@drawable/ic_call_white_24dp"
+        app:iconM3="@drawable/ic_chat_white_24dp"
+        app:menuOpenDirection="top_right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
