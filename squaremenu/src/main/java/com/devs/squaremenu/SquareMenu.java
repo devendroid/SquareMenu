@@ -12,6 +12,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.animation.BounceInterpolator;
+import android.view.animation.LinearInterpolator;
 
 import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.AnimatorListenerAdapter;
@@ -426,7 +428,10 @@ public class SquareMenu extends View {
 
         fabsAnimSet.playTogether(moveTR, moveTL, moveBR,  scaleFAB, rotatePlus);
         fabsAnimSet.setDuration(ANIM_SPEED);
+        fabsAnimSet.setInterpolator(new LinearInterpolator());
         fabsAnimSet.start();
+
+
     }
 
     private void resetAnimationTopRightMenu(){
@@ -475,6 +480,7 @@ public class SquareMenu extends View {
         });
         fabsAnimSet.playTogether(moveTL, moveTR, moveBR);
         fabsAnimSet.setDuration(ANIM_SPEED);
+        fabsAnimSet.setInterpolator(new LinearInterpolator());
         fabsAnimSet.start();
     }
 

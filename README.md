@@ -1,6 +1,7 @@
 # SquareMenu
 [![Download](https://api.bintray.com/packages/ideal/maven/squaremenu/images/download.svg) ](https://bintray.com/ideal/maven/squaremenu/_latestVersion)
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SquareMenu-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4585)
 [![GitHub license](https://img.shields.io/github/license/dcendents/android-maven-gradle-plugin.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 SquareMenu is a custom Floating Action Button with a different shape from traditional FABs and with three sub menu buttons.

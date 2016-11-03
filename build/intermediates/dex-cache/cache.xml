@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/exploded-aar/com.devs/squaremenu/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="86ebe1589b9b35ffa4a24c1c30848a4b04a4cbfc">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.devs-squaremenu-1.0.0_e2aeb3a4e3e841f5ad49b3f592c5b334d0179c1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="true"
         optimize="true"
@@ -34,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="e24a0f1e941808dde7b0492ec3cef00be75814ca">
+        sha1="329def9cf83bcf01b038ed7db004e8d092cec37c">
         <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_16a1b203cda8dce6d908e4158e8d3ae0756f7f83/classes.dex" />
     </item>
     <item
@@ -79,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="cd46a7bbdfdb208689bdba0d4eb4fe1009124227">
+        sha1="5966b29f4ccedd6d53cb5f8bba3ca74b2b921d34">
         <dex dex="/home/idealtechno/AndroidStudioProjects/SquareMenu/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b6618985a1ddedce4ca620cf867c54b76b221c01/classes.dex" />
     </item>
 

@@ -27,5 +27,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     testCompile 'junit:junit:4.12'
 
-    compile project(":squaremenu")
+      compile project(":squaremenu")
+    // compile 'com.devs:squaremenu:1.0.0'
 }
