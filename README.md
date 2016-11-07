@@ -65,6 +65,14 @@ public void onCreate() {
 
 ```
 
+## Contribute:
+#### Simple 3 step to contribute into this repo:
+```
+    Fork the project.
+    Make required changes and commit.
+    Generate pull request. Mention all the required description regarding changes you made.
+```
+
 ## License
 ```
 Copyright 2016 Deven Singh
