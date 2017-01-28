@@ -5,8 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+   <!-- <android.support.design.widget.FloatingActionButton
+        app:fabSize="normal"
+       android:backgroundTint="@color/colorAccent"
+        app:backgroundTint="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:src="@android:drawable/ic_menu_edit"/>-->
+
+
     <com.devs.squaremenu.SquareMenu
-        app:fabSize="80"
+        app:squareFabSize="80"
         app:fabColor="@color/colorAccent"
         app:menuOpenDirection="top_left"
         app:iconM1="@drawable/ic_delete_forever_white_24dp"
@@ -18,7 +28,7 @@
         android:layout_height="wrap_content" />
 
     <com.devs.squaremenu.SquareMenu
-        app:fabSize="80"
+        app:squareFabSize="80"
         app:fabColor="@color/colorPrimaryDark"
         android:id="@+id/sm"
         app:iconM1="@drawable/ic_delete_forever_white_24dp"

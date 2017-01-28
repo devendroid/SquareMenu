@@ -34,7 +34,7 @@
                   null so it will not be drawn.
              </ul> -->
         <attr name="fabColor" format="color" />
-        <attr name="fabSize" format="integer" />
+        <attr name="squareFabSize" format="integer" />
         <!-- Align the bounds of the children.
           @param fabDirection -->
         <attr name="menuOpenDirection" format="string" />

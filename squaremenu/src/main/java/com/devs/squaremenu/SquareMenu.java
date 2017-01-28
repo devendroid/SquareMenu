@@ -12,7 +12,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.BounceInterpolator;
 import android.view.animation.LinearInterpolator;
 
 import com.nineoldandroids.animation.Animator;
@@ -77,7 +76,7 @@ public class SquareMenu extends View {
         Drawable iconM1, iconM2, iconM3;
         try {
             fabColor = a.getColor(R.styleable.SquareMenu_fabColor, FAB_COLOR);
-            fabWidth = fabHeight = a.getInteger(R.styleable.SquareMenu_fabSize, FAB_SIZE);
+            fabWidth = fabHeight = a.getInteger(R.styleable.SquareMenu_squareFabSize, FAB_SIZE);
             menuOpenDirection = a.getString(R.styleable.SquareMenu_menuOpenDirection);
             if(menuOpenDirection == null) menuOpenDirection =  DEFAULT_DIRECTION;
             iconM1 = a.getDrawable(R.styleable.SquareMenu_iconM1);

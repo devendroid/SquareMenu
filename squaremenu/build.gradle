@@ -14,7 +14,7 @@ ext {
     siteUrl = 'https://github.com/devsideal/SquareMenu'
     gitUrl = 'https://github.com/devsideal/SquareMenu.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'ideal'
     developerName = 'deven'
@@ -33,7 +33,7 @@ android {
         minSdkVersion 11
         targetSdkVersion 21
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
