@@ -8,14 +8,14 @@ SquareMenu is a custom Floating Action Button with a different shape from tradit
 ##Demo
 ![SquareMenu Demo](/assets/square_menu_v1.0.0.gif)
 
-##Dependency
+## Dependency
 - Add the dependencies to your app level build.gradle file:
 
-####Gradle
+#### Gradle
 ```gradle
     compile 'com.devs:squaremenu:1.0.0'
 ```
-####Maven
+#### Maven
 ```xml
 <dependency>
 <groupId>com.devs</groupId>
@@ -25,7 +25,7 @@ SquareMenu is a custom Floating Action Button with a different shape from tradit
 </dependency>
 ```
 
-##Usage
+## Usage
 - Inside your xml:
 ```xml
 <com.devs.squaremenu.SquareMenu
@@ -64,7 +64,6 @@ public void onCreate() {
 }
 
 ```
-
 ## Contribute:
 #### Simple 3 step to contribute into this repo:
 ```
