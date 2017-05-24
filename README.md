@@ -62,8 +62,20 @@ public void onCreate() {
             public void onClickMenu3() { }
         });
 }
-
 ```
+
+Used by
+-------
+
+If you want your app listed here, drop me a message on [Google+][Gplus].
+
+Icon                                                                                                         | App link
+-------------------------------------------------------------------------------------------------------------|-----------
+<img src="/assets/screenrecorder.png" /> | [ScreenRecorderHD][ScreenRecorderHD]
+
+
+
+
 ## Contribute:
 #### Simple 3 step to contribute into this repo:
 ```
