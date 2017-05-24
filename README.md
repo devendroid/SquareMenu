@@ -67,7 +67,7 @@ public void onCreate() {
 Used by
 -------
 
-If you want your app listed here, drop me a message on [Google+][Gplus].
+If you want your app listed here, drop me a message on [MyEmail][ideal].
 
 Icon                                                                                                         | App link
 -------------------------------------------------------------------------------------------------------------|-----------
@@ -100,4 +100,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+[ideal]:            devendra@idealittechno.com
 [ScreenRecorderHD]:  https://play.google.com/store/apps/details?id=com.it.screenrecorder
