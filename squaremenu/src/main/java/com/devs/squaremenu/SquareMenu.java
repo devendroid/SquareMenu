@@ -46,6 +46,7 @@ public class SquareMenu extends View {
     // Custom values
     private int fabWidth = FAB_SIZE, fabHeight = FAB_SIZE;
     private int fabColor = FAB_COLOR;
+    private boolean autoClose = false;
     private String menuOpenDirection = DEFAULT_DIRECTION;
     private Paint paintFAB, paintFabBG, paintFabBGWidShadow, paintFabBGWithoutShadow, paintFabPlus, paintIcons;
 
@@ -75,6 +76,7 @@ public class SquareMenu extends View {
         // Extract custom attributes into member variables
         Drawable iconM1, iconM2, iconM3;
         try {
+            autoClose = a.getBoolean(R.styleable.SquareMenu_autoClose, false);
             fabColor = a.getColor(R.styleable.SquareMenu_fabColor, FAB_COLOR);
             fabWidth = fabHeight = a.getInteger(R.styleable.SquareMenu_squareFabSize, FAB_SIZE);
             menuOpenDirection = a.getString(R.styleable.SquareMenu_menuOpenDirection);
@@ -308,23 +310,30 @@ public class SquareMenu extends View {
         else {
             // Touch of BOTTOM_RIGHT
             if(event.getX() > fabWidth && event.getY() > fabHeight) {
-                isOpened = false;
-                resetAnimationTopLeftMenu();
-                if(onMenuClickListener!=null)onMenuClickListener.onMenuClose();
+                closeTopLeftM();
             }
             // Touch of TOP-LEFT
             else if(event.getX() < fabWidth && event.getY() < fabHeight) {
                 if(onMenuClickListener!=null)onMenuClickListener.onClickMenu2();
+                if(autoClose)closeTopLeftM();
             }
             // Touch of TOP-RIGHT
             else if(event.getX() > fabWidth && event.getY() < fabHeight) {
                 if(onMenuClickListener!=null)onMenuClickListener.onClickMenu3();
+                if(autoClose)closeTopLeftM();
             }
             // Touch of BOTTOM-LEFT
             else if(event.getX() < fabWidth && event.getY() > fabHeight) {
                 if(onMenuClickListener!=null)onMenuClickListener.onClickMenu1();
+                if(autoClose)closeTopLeftM();
             }
         }
+    }
+
+    private void closeTopLeftM(){
+        isOpened = false;
+        resetAnimationTopLeftMenu();
+        if(onMenuClickListener!=null)onMenuClickListener.onMenuClose();
     }
 
     private void touch4TopRightMenu(MotionEvent event) {
@@ -339,23 +348,30 @@ public class SquareMenu extends View {
         else {
             // Touch of BOTTOM_LEFT
             if(event.getX() < fabWidth && event.getY() > fabHeight) {
-                isOpened = false;
-                resetAnimationTopRightMenu();
-                if(onMenuClickListener!=null)onMenuClickListener.onMenuClose();
+                closeTopRightM();
             }
             // Touch of TOP-RIGHT
             else if(event.getX() > fabWidth && event.getY() < fabHeight) {
                 if(onMenuClickListener!=null)onMenuClickListener.onClickMenu2();
+                if(autoClose) closeTopRightM();
             }
             // Touch of TOP-LEFT
             else if(event.getX() < fabWidth && event.getY() < fabHeight) {
                 if(onMenuClickListener!=null)onMenuClickListener.onClickMenu3();
+                if(autoClose) closeTopRightM();
             }
             // Touch of BOTTOM-RIGHT
             else if(event.getX() > fabWidth && event.getY() > fabHeight) {
                 if(onMenuClickListener!=null)onMenuClickListener.onClickMenu1();
+                if(autoClose) closeTopRightM();
             }
         }
+    }
+
+    private void closeTopRightM(){
+        isOpened = false;
+        resetAnimationTopRightMenu();
+        if(onMenuClickListener!=null)onMenuClickListener.onMenuClose();
     }
 
     private void startAnimationTopRightMenu() {
@@ -627,6 +643,13 @@ public class SquareMenu extends View {
         this.fabColor = color;
         invalidate();
         requestLayout();
+    }
+
+    /**
+     * @param autoClose true or false : default is false
+     */
+    public void setAutoClose(boolean autoClose) {
+        this.autoClose = autoClose;
     }
 
     /**

@@ -41,6 +41,7 @@
         <attr name="iconM1" format="integer" />
         <attr name="iconM2" format="integer" />
         <attr name="iconM3" format="integer" />
+        <attr name="autoClose" format="boolean" />
     </declare-styleable>
 
 </resources>
