@@ -25,7 +25,8 @@ SquareMenu is a custom Floating Action Button with a different shape from tradit
 
 2 >> In app Module gradle file
 
-```	       dependencies {
+```	       
+           dependencies {
    	        implementation 'com.github.devendroid:SquareMenu:1.0.0'
    	       }
 
