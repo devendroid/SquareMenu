@@ -16,6 +16,7 @@ SquareMenu is a custom Floating Action Button with a different shape from tradit
     compile 'com.devs:squaremenu:1.0.0'
 ```
 #### Maven
+
 ```xml
 <dependency>
 <groupId>com.devs</groupId>
